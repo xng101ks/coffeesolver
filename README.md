@@ -1,4 +1,4 @@
-# coffeesolve ☕📉
+# coffeesolver ☕📉
 
 > **An over-engineered Mixed-Integer Linear Programming (MILP) approach to academic caffeine liquidation.**
 

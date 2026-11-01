@@ -7,14 +7,14 @@
 As an Erasmus Mundus Master’s student, moving across universities and countries every few months comes with a very specific, recurring financial nuisance: **campus coffee machine apps**.
 
 Every new campus insists on a proprietary vending ecosystem where you are forced to top up an arbitrary prepaid balance upfront. The catch? You have to drain that balance before relocating to your next mobility semester. If you don't plan your orders carefully, you inevitably end up with €0.30 or €0.40 stranded in a localized payment wallet—money you can neither retrieve nor spend, effectively donating your student savings to a vending machine vendor you will never see again.
-
+e
 Mental math is prone to errors, and leaving unspent credit behind feels like an engineering defeat.
 
 ### The Solution
 
-Enter **`coffeesolve`**.
+Enter **`coffeesolver`**.
 
-Instead of guessing your way through your final days of the semester, `coffeesolve` models your remaining balance as a constrained **Diophantine optimization problem** solved via MATLAB’s `intlinprog`. It dynamically takes your balance and campus offerings, computing the exact combination of beverages to consume so that:
+Instead of guessing your way through your final days of the semester, `coffeesolver` models your remaining balance as a constrained **Diophantine optimization problem** solved via MATLAB’s `intlinprog`. It dynamically takes your balance and campus offerings, computing the exact combination of beverages to consume so that:
 
 1. **Target Liquidated:** Your account balance hits strictly **€0.00**.
 2. **Preference Maximized:** You buy as much of your primary beverage of choice (e.g., standard espresso/cappuccino) as mathematically possible.
@@ -36,13 +36,13 @@ $$
 
 1. Clone the repository and navigate into the folder:
    ```bash
-   git clone https://github.com/your-username/coffeesolve.git
-   cd coffeesolve
+   git clone https://github.com/your-username/coffeesolver.git
+   cd coffeesolver
    ```
 
 2. Run the script in MATLAB:
    ```matlab
-   coffeesolve
+   coffeesolver
    ```
 
 3. Follow the interactive terminal prompts:
@@ -55,7 +55,7 @@ $$
 
 ```text
 ==============================================
-  coffeesolve: Academic Balance Liquidator    
+  coffeesolver: Academic Balance Liquidator    
 ==============================================
 
 Enter your remaining account balance in EUR (e.g., 10.40): 10.00

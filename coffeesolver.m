@@ -1,8 +1,8 @@
-% coffeesolve.m - Generalized Campus Coffee Balance Liquidation Solver
+% coffeesolver.m - Generalized Campus Coffee Balance Liquidation Solver
 clear; clc;
 
 fprintf('==============================================\n');
-fprintf('  coffeesolve: Academic Balance Liquidator    \n');
+fprintf('  coffeesolver: Academic Balance Liquidator    \n');
 fprintf('==============================================\n\n');
 
 % 1. Get remaining balance from user
